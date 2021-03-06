@@ -113,7 +113,7 @@ def read_reservations():
     with open("reservations.txt") as file:
         lines = (line.rstrip() for line in file)
         lines = (line for line in lines if line)
-        lines = (line for line in lines if not line.startswith("//"))
+        lines = (line for line in lines if not line.startswith("#"))
         lines = (line.split() for line in lines)
         lines = list(lines)
 

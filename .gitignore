@@ -1,1 +1,8 @@
+# Files
+chromedriver
+reservations.txt
 secrets.py
+
+# Directories
+/env
+/__pycache__

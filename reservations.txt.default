@@ -1,0 +1,14 @@
+# Make a copy of this file and rename it to "reservations.txt"
+# Add times and dates to fit your needs
+
+# The format for a day and time is as follows:
+# weekday startTime endTime AM/PM location
+
+# A list of valid locations: HTRC, CRWC
+
+# An example of the formatting:
+# Monday 8 - 9:30 PM HTRC
+
+# The order of the days does not matter, however the formatting needs to be
+# correct, otherwise the program will not work
+
