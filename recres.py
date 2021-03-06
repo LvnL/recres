@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 import format_date
+import secrets
 import sms
 
 def main():
@@ -107,6 +108,9 @@ def log_in(bar):
 def raise_error(driver, bar, error):
     bar.finish()
     driver.quit()
+    '''sms.send_message(secrets.support_phone_number,
+        "Recres Script Error",
+        "The recres script has encountered an error, please check deployments")'''
     sys.exit(error)
 
 def read_reservations():
